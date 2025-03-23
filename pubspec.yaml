@@ -1,0 +1,46 @@
+name: aplikasi
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # flutter_lints: ^5.0.0 # Updated to latest version
+
+# You can add more dependencies here if needed
+# Example dependencies (uncomment to use):
+#   async: ^2.12.0
+#   boolean_selector: ^2.1.2
+#   characters: ^1.3.1
+#   collection: ^1.19.1
+#   fake_async: ^1.3.2
+#   leak_tracker: ^10.0.8
+#   leak_tracker_flutter_testing: ^3.0.9
+#   leak_tracker_testing: ^3.0.1
+#   lints: ^5.1.0
+#   matcher: ^0.12.17
+#   material_color_utilities: ^0.12.0
+#   meta: ^1.16.0
+#   path: ^1.9.1
+#   stack_trace: ^1.12.0
+#   string_scanner: ^1.4.0
+#   test_api: ^0.7.3
+#   vm_service: ^14.3.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - images/olahraga/
+    - images/imt/
+    - images/assets/
